@@ -25,6 +25,3 @@ This modularity allows easy reuse and integration into larger FPGA-based image p
 - Preprocessing for **CNN vision pipelines**, reducing input feature complexity by **60–70%**.
 - Real-time edge detection in **robotics, surveillance, and IoT vision systems**.
 - Educational tool for learning **Verilog-based image processing** on FPGA.
-
-
-   git clone https://github.com/TechyAsad/Sobel-Edge-Detection-On-FPGA.git
