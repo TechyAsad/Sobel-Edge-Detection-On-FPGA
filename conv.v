@@ -57,10 +57,10 @@ end
 
 always @(*)
 begin
-   sumDataInt <= 0;
+   sumDataInt = 0;
    for(i=0;i<9;i=i+1)
    begin
-     sumDataInt <= sumDataInt + multData[i]; 
+     sumDataInt = sumDataInt + multData[i]; 
      end
 end
 
