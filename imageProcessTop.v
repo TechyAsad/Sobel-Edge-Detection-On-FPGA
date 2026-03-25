@@ -66,8 +66,8 @@ imageControl IC(
 
 conv  conv(
 .i_clk(axi_clk),
-.i_pixel_data(),//72 pixel,3 line buffer of 24 bits each as inputs
-.i_pixel_data_valid(),
+.i_pixel_data(pixel_data),//72 pixel,3 line buffer of 24 bits each as inputs
+.i_pixel_data_valid(pixel_data_valid),
 .o_convolved_data(convolved_data),
 .o_convolved_data_valid(convolved_data_valid)
     );   
