@@ -25,7 +25,7 @@ input i_clk,
 input i_rst,
 input [7:0] i_pixel_data,
 input i_pixel_data_valid,
-output reg [7:0] o_pixel_data,
+output reg [71:0] o_pixel_data,
 output o_pixel_data_valid,
 output reg o_intr
 );
@@ -163,6 +163,7 @@ begin
     rd_Counter <=0;
     else
     begin
+    if(rd_line_buffer)          
     rd_Counter <= rd_Counter + 1;
     end
 end
@@ -205,6 +206,7 @@ end
  
  always @(*)
  begin
+      lineBuffRdData = 4'b0000; 
       case(currentRdLineBuffer)// Same as above 210 -> 321 -> 032 -> 103
       0:begin
             lineBuffRdData[0] = rd_line_buffer;
