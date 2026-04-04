@@ -19,7 +19,7 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-
+// Blur convolution operation for learning purpose
 module conv(
 input i_clk,
 input [71:0] i_pixel_data,//72 pixel,3 line buffer of 24 bits each as inputs
