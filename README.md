@@ -2,6 +2,8 @@
 
 This project implements a **hardware-accelerated Sobel edge detection engine** on FPGA using Verilog HDL. It serves as a practical example for learning **image processing on FPGA** with real-time performance.This module's aim is to act as a preprocessing block for **Neural Network Accelerator for Railway Track Defect Detection**.
 
+I am deploying Neural Networks code on : https://github.com/TechyAsad/Neural-Networks-on-FPGA
+
 ## Overview
 
 The Sobel edge detection algorithm computes image gradients using a **3×3 convolution kernel** to highlight edges. This FPGA implementation accelerates the computation by leveraging parallelism and modular RTL design.
