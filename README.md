@@ -1,6 +1,6 @@
 # Sobel Edge Detection on FPGA
 
-This project implements a **hardware-accelerated Sobel edge detection engine** on FPGA using Verilog HDL. It serves as a practical example for learning **image processing on FPGA** with real-time performance.
+This project implements a **hardware-accelerated Sobel edge detection engine** on FPGA using Verilog HDL. It serves as a practical example for learning **image processing on FPGA** with real-time performance.This module's aim is to act as a preprocessing block for **Neural Network Accelerator for Railway Track Defect Detection**.
 
 ## Overview
 
@@ -20,8 +20,8 @@ The design consists of modular RTL blocks:
 
 This modularity allows easy reuse and integration into larger FPGA-based image processing pipelines.
 
-## Applications
+## Future aim:
 
 - Preprocessing for **CNN vision pipelines**, reducing input feature complexity by **60–70%**.
-- Real-time edge detection in **robotics, surveillance, and IoT vision systems**.
+- Enabling Real-time edge detection of  **track images in the Roboflow Railway Track Dataset**.
 - Educational tool for learning **Verilog-based image processing** on FPGA.
